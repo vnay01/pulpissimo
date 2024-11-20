@@ -22,7 +22,9 @@ ifeq ($(rev), nexysA7-50T)
 endif
 ifeq ($(rev), nexysA7-100T)
 	export XILINX_PART=xc7a100tcsg324-1
-	export XILINX_BOARD=digilentinc.com:nexys-a7-100t:1.0
+	export XILINX_BOARD=digilentinc.com:nexys-a7-100t:part0:1.3
+
+#	digilentinc.com:arty-a7-100:part0:1.0 digilentinc.com:arty-a7-100:part0:1.1 digilentinc.com:arty-a7-35:part0:1.0 digilentinc.com:arty-a7-35:part0:1.1 digilentinc.com:arty-s7-25:part0:1.1 digilentinc.com:arty-s7-50:part0:1.1 digilentinc.com:arty:part0:1.1 digilentinc.com:basys3:part0:1.2 digilentinc.com:cmod-s7-25:part0:1.0 digilentinc.com:cmod_a7-15t:part0:1.2 digilentinc.com:cmod_a7-35t:part0:1.2 digilentinc.com:nexys-a7-100t:part0:1.0 digilentinc.com:nexys-a7-100t:part0:1.2 digilentinc.com:nexys-a7-100t:part0:1.3 
 endif
 #Check if one was found
 ifndef XILINX_PART
