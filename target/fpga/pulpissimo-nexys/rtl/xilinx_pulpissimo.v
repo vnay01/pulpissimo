@@ -77,7 +77,7 @@ module xilinx_pulpissimo (
 
   localparam CORE_TYPE = 0; // 0 for RISCY, 1 for IBEX RV32IMC (formerly ZERORISCY), 2 for IBEX RV32EC (formerly MICRORISCY)
   localparam USE_FPU   = 1;
-  localparam USE_HWPE  = 0;
+  localparam USE_HWPE  = 1; // enable hardware processing engine
 
   wire        ref_clk;
   // wire        tck_int;
